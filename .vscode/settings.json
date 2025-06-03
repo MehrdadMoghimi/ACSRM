@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": [
+        "--line-length", 
+        "150"
+    ],
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": false
+}

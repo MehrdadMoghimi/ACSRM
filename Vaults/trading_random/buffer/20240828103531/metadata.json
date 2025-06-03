@@ -1,0 +1,1 @@
+{"version": 1.2, "structure_shape": {"action": "(1, 500000, 1)", "done": "(1, 500000)", "obs": "(1, 500000, 3)", "reward": "(1, 500000)"}, "structure_dtype": {"action": "float32", "done": "bool", "obs": "float32", "reward": "float32"}}
