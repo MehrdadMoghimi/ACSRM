@@ -10,6 +10,7 @@ from reward_wrappers import RewardHighVelocity, RewardUnhealthyPose
 
 # from create_hdf5 import HDF5_Creator
 # from utilities import get_keys
+# unzip the files in the d4rl datasets directory and add them to the main d4rl datasets directory
 
 path_to_datasets = os.environ.get("D4RL_DATASET_DIR", os.path.expanduser("~/.d4rl/datasets"))
 env_id_list = [
