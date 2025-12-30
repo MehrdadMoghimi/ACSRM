@@ -106,17 +106,23 @@ The results consistently show that optimizing for static SRMs leads to policies 
   * The framework allows for the generation of a **diverse set of risk-sensitive policies** from a single offline dataset, catering to different risk preferences.
   * **Deterministic policy variants (TD3-SRM and TD3BC-SRM)** showed particularly strong performance, suggesting that the added randomness of stochastic policies can sometimes hinder risk-sensitive objectives.
 
-<!---
+## 🙏 Acknowledgments
+
+This project builds upon the excellent work of:
+
+- [JAX-CORL](https://github.com/nissymori/JAX-CORL) - for providing inspiration and reference implementations for JAX-based RL algorithms
+- [CleanRL](https://github.com/vwxyzjn/cleanrl) - for high-quality, clean implementations of RL algorithms
+
+
 ## Citing this Work
 
 If you use this code or the ideas presented in the paper for your research, please cite:
 
 ```bibtex
-@article{moghimiku2025,
-  title={Risk-sensitive Actor-Critic with Static Spectral Risk Measure for Online and Offline Reinforcement Learning},
+@article{moghimi2025risk,
+  title={Risk-sensitive Actor-Critic with Static Spectral Risk Measures for Online and Offline Reinforcement Learning},
   author={Moghimi, Mehrdad and Ku, Hyejin},
-  journal={},
+  journal={arXiv preprint arXiv:2507.03900},
   year={2025}
 }
 ```
--->
